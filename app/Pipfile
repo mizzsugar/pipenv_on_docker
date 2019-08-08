@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-stubs = "*"
+flake8 = "*"
+
+[packages]
+django = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+django-extensions = "*"
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.7"
